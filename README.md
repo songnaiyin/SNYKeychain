@@ -3,6 +3,7 @@
 简单的使用Keychain保存数据
 使用方法
 //存
+
         NSString * str = @"598922307";
         [Keychain setObject:str forKey:@"strKey"];
 
@@ -17,6 +18,7 @@
         [Keychain setObject:p forKey:@"pKey"];
 
 //取
+
         NSString * str1 = [Keychain objecForKey:@"strKey"];
         NSLog(@"str1:%@",str1);
 
