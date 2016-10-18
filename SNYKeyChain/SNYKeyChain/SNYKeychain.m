@@ -6,10 +6,10 @@
 //  Copyright © 2016年 camhow. All rights reserved.
 //
 
-#import "SNYKeyChain.h"
+#import "SNYKeychain.h"
 #import <Security/Security.h>
 
-@implementation SNYKeyChain
+@implementation SNYKeychain
 
 +(void)removeDataForKey:(NSString *)key
 {
@@ -102,4 +102,24 @@
     }
     return nil;
 }
+@end
+
+@implementation SNYKeychain (Cate)
+
++(void)setObject:(id<NSCoding>)object forKey:(NSString *)key
+{
+    NSData * data = [NSKeyedArchiver archivedDataWithRootObject:object];
+    [self setData:data forKey:key];
+}
++(id)objecForKey:(NSString *)key
+{
+    NSData * data = [self dataForKey:key];
+    if (data)
+    {
+        id object = [NSKeyedUnarchiver unarchiveObjectWithData:data];
+        return object;
+    }
+    return nil;
+}
+
 @end

@@ -7,65 +7,41 @@
 //
 
 #import "ViewController.h"
-#import "SNYKeyChain.h"
-@interface ViewController ()
-{
-    
-    __weak IBOutlet UITextField *nameField;
-    __weak IBOutlet UITextField *passwordField;
-}
-@end
+#import "SNYKeychain.h"
+#import "People.h"
 
 @implementation ViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-}
 
-// 查找全部
-- (IBAction)selAll:(id)sender
-{
-    NSDictionary* query = @{(__bridge id)kSecClass:(__bridge id)kSecClassGenericPassword,
-                            (__bridge id)kSecMatchLimit:(__bridge id)kSecMatchLimitAll,
-                            (__bridge id)kSecReturnAttributes:(__bridge id)kCFBooleanTrue};
-
-    CFTypeRef result = nil;
-    OSStatus s = SecItemCopyMatching((CFDictionaryRef)query, &result);
-    if (s == noErr)
-    {
-        NSLog(@"select all : %d",s);
-        NSLog(@"%@",result);
-        
-    }
-    else
-    {
-        NSLog(@"查询失败 : %@",result);
-    }
-}
-
-- (IBAction)sel_num:(id)sender
-{
-    if (nameField.text.length >0)
-    {
-        NSData * data = [SNYKeyChain dataForKey:nameField.text];
-        NSString * str = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-        NSLog(@"%@",str);
-    }
-}
-- (IBAction)update:(id)sender
-{
-    if (nameField.text.length >0 && passwordField.text.length > 0)
-    {
-        [SNYKeyChain setData:[passwordField.text dataUsingEncoding:NSUTF8StringEncoding] forKey:nameField.text];
-    }
-}
-- (IBAction)delete:(id)sender
-{
-    if (nameField.text.length >0)
-    {
-        [SNYKeyChain removeDataForKey:nameField.text];
-    }
+    //存
+    NSString * str = @"598922307";
+    [SNYKeychain setObject:str forKey:@"strKey"];
+    
+    NSArray * arr = @[@"1",@"2",@"3"];
+    [SNYKeychain setObject:arr forKey:@"arrKey"];
+    
+    NSDictionary * dict = @{@"k1":@"v1",@"k2":@"v2"};
+    [SNYKeychain setObject:dict forKey:@"dictKey"];
+    
+    People * p = [[People alloc] init];
+    p.name = @"sny";
+    [SNYKeychain setObject:p forKey:@"pKey"];
+    
+    //取
+    NSString * str1 = [SNYKeychain objecForKey:@"strKey"];
+    NSLog(@"str1:%@",str1);
+    
+    NSArray * arr1 = [SNYKeychain objecForKey:@"arrKey"];
+    NSLog(@"arr1:%@",arr1);
+    
+    NSArray * dict1 = [SNYKeychain objecForKey:@"dictKey"];
+    NSLog(@"dict1:%@",dict1);
+    
+    People * p1 = [SNYKeychain objecForKey:@"pKey"];
+    NSLog(@"p1:%@",p1);
 }
 
 

@@ -7,29 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		848394ED1DB5BE21005F6E7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 848394EC1DB5BE21005F6E7E /* main.m */; };
-		848394F01DB5BE21005F6E7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 848394EF1DB5BE21005F6E7E /* AppDelegate.m */; };
-		848394F31DB5BE21005F6E7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848394F21DB5BE21005F6E7E /* ViewController.m */; };
-		848394F61DB5BE21005F6E7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848394F41DB5BE21005F6E7E /* Main.storyboard */; };
-		848394F81DB5BE21005F6E7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848394F71DB5BE21005F6E7E /* Assets.xcassets */; };
-		848394FB1DB5BE21005F6E7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848394F91DB5BE21005F6E7E /* LaunchScreen.storyboard */; };
-		8483950D1DB5FDE7005F6E7E /* SNYKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 8483950C1DB5FDE7005F6E7E /* SNYKeyChain.m */; };
+		8483954C1DB61E9F005F6E7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8483953C1DB61E9F005F6E7E /* AppDelegate.m */; };
+		8483954D1DB61E9F005F6E7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8483953D1DB61E9F005F6E7E /* Assets.xcassets */; };
+		8483954E1DB61E9F005F6E7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8483953E1DB61E9F005F6E7E /* LaunchScreen.storyboard */; };
+		8483954F1DB61E9F005F6E7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848395401DB61E9F005F6E7E /* Main.storyboard */; };
+		848395501DB61E9F005F6E7E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 848395421DB61E9F005F6E7E /* Info.plist */; };
+		848395511DB61E9F005F6E7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 848395431DB61E9F005F6E7E /* main.m */; };
+		848395521DB61E9F005F6E7E /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 848395451DB61E9F005F6E7E /* People.m */; };
+		848395531DB61E9F005F6E7E /* SNYKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 848395481DB61E9F005F6E7E /* SNYKeychain.m */; };
+		848395541DB61E9F005F6E7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8483954B1DB61E9F005F6E7E /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		848394E81DB5BE21005F6E7E /* SNYKeyChain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNYKeyChain.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		848394EC1DB5BE21005F6E7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		848394EE1DB5BE21005F6E7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		848394EF1DB5BE21005F6E7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		848394F11DB5BE21005F6E7E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		848394F21DB5BE21005F6E7E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		848394F51DB5BE21005F6E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		848394F71DB5BE21005F6E7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		848394FA1DB5BE21005F6E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		848394FC1DB5BE21005F6E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		848395091DB5F555005F6E7E /* SNYKeyChain.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SNYKeyChain.entitlements; sourceTree = "<group>"; };
-		8483950B1DB5FDE7005F6E7E /* SNYKeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNYKeyChain.h; sourceTree = "<group>"; };
-		8483950C1DB5FDE7005F6E7E /* SNYKeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNYKeyChain.m; sourceTree = "<group>"; };
+		848394E81DB5BE21005F6E7E /* SNYKeychain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNYKeychain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8483953B1DB61E9F005F6E7E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8483953C1DB61E9F005F6E7E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8483953D1DB61E9F005F6E7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8483953F1DB61E9F005F6E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		848395411DB61E9F005F6E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		848395421DB61E9F005F6E7E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848395431DB61E9F005F6E7E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		848395441DB61E9F005F6E7E /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		848395451DB61E9F005F6E7E /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		848395471DB61E9F005F6E7E /* SNYKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNYKeychain.h; sourceTree = "<group>"; };
+		848395481DB61E9F005F6E7E /* SNYKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNYKeychain.m; sourceTree = "<group>"; };
+		848395491DB61E9F005F6E7E /* SNYKeychain.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = SNYKeychain.entitlements; sourceTree = "<group>"; };
+		8483954A1DB61E9F005F6E7E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8483954B1DB61E9F005F6E7E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +50,7 @@
 		848394DF1DB5BE21005F6E7E = {
 			isa = PBXGroup;
 			children = (
-				848394EA1DB5BE21005F6E7E /* SNYKeyChain */,
+				8483953A1DB61E9F005F6E7E /* SNYKeychain */,
 				848394E91DB5BE21005F6E7E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,52 +58,46 @@
 		848394E91DB5BE21005F6E7E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				848394E81DB5BE21005F6E7E /* SNYKeyChain.app */,
+				848394E81DB5BE21005F6E7E /* SNYKeychain.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		848394EA1DB5BE21005F6E7E /* SNYKeyChain */ = {
+		8483953A1DB61E9F005F6E7E /* SNYKeychain */ = {
 			isa = PBXGroup;
 			children = (
-				8483950A1DB5FDE7005F6E7E /* SNYKeyChain */,
-				848395091DB5F555005F6E7E /* SNYKeyChain.entitlements */,
-				848394EE1DB5BE21005F6E7E /* AppDelegate.h */,
-				848394EF1DB5BE21005F6E7E /* AppDelegate.m */,
-				848394F11DB5BE21005F6E7E /* ViewController.h */,
-				848394F21DB5BE21005F6E7E /* ViewController.m */,
-				848394F41DB5BE21005F6E7E /* Main.storyboard */,
-				848394F71DB5BE21005F6E7E /* Assets.xcassets */,
-				848394F91DB5BE21005F6E7E /* LaunchScreen.storyboard */,
-				848394FC1DB5BE21005F6E7E /* Info.plist */,
-				848394EB1DB5BE21005F6E7E /* Supporting Files */,
+				8483953B1DB61E9F005F6E7E /* AppDelegate.h */,
+				8483953C1DB61E9F005F6E7E /* AppDelegate.m */,
+				8483953D1DB61E9F005F6E7E /* Assets.xcassets */,
+				8483953E1DB61E9F005F6E7E /* LaunchScreen.storyboard */,
+				848395401DB61E9F005F6E7E /* Main.storyboard */,
+				848395421DB61E9F005F6E7E /* Info.plist */,
+				848395431DB61E9F005F6E7E /* main.m */,
+				848395441DB61E9F005F6E7E /* People.h */,
+				848395451DB61E9F005F6E7E /* People.m */,
+				848395461DB61E9F005F6E7E /* SNYKeychain */,
+				848395491DB61E9F005F6E7E /* SNYKeychain.entitlements */,
+				8483954A1DB61E9F005F6E7E /* ViewController.h */,
+				8483954B1DB61E9F005F6E7E /* ViewController.m */,
 			);
-			path = SNYKeyChain;
+			path = SNYKeychain;
 			sourceTree = "<group>";
 		};
-		848394EB1DB5BE21005F6E7E /* Supporting Files */ = {
+		848395461DB61E9F005F6E7E /* SNYKeychain */ = {
 			isa = PBXGroup;
 			children = (
-				848394EC1DB5BE21005F6E7E /* main.m */,
+				848395471DB61E9F005F6E7E /* SNYKeychain.h */,
+				848395481DB61E9F005F6E7E /* SNYKeychain.m */,
 			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		8483950A1DB5FDE7005F6E7E /* SNYKeyChain */ = {
-			isa = PBXGroup;
-			children = (
-				8483950B1DB5FDE7005F6E7E /* SNYKeyChain.h */,
-				8483950C1DB5FDE7005F6E7E /* SNYKeyChain.m */,
-			);
-			path = SNYKeyChain;
+			path = SNYKeychain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		848394E71DB5BE21005F6E7E /* SNYKeyChain */ = {
+		848394E71DB5BE21005F6E7E /* SNYKeychain */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 848394FF1DB5BE21005F6E7E /* Build configuration list for PBXNativeTarget "SNYKeyChain" */;
+			buildConfigurationList = 848394FF1DB5BE21005F6E7E /* Build configuration list for PBXNativeTarget "SNYKeychain" */;
 			buildPhases = (
 				848394E41DB5BE21005F6E7E /* Sources */,
 				848394E51DB5BE21005F6E7E /* Frameworks */,
@@ -109,9 +107,9 @@
 			);
 			dependencies = (
 			);
-			name = SNYKeyChain;
+			name = SNYKeychain;
 			productName = SNYKeyChain;
-			productReference = 848394E81DB5BE21005F6E7E /* SNYKeyChain.app */;
+			productReference = 848394E81DB5BE21005F6E7E /* SNYKeychain.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -135,7 +133,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 848394E31DB5BE21005F6E7E /* Build configuration list for PBXProject "SNYKeyChain" */;
+			buildConfigurationList = 848394E31DB5BE21005F6E7E /* Build configuration list for PBXProject "SNYKeychain" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -148,7 +146,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				848394E71DB5BE21005F6E7E /* SNYKeyChain */,
+				848394E71DB5BE21005F6E7E /* SNYKeychain */,
 			);
 		};
 /* End PBXProject section */
@@ -158,9 +156,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				848394FB1DB5BE21005F6E7E /* LaunchScreen.storyboard in Resources */,
-				848394F81DB5BE21005F6E7E /* Assets.xcassets in Resources */,
-				848394F61DB5BE21005F6E7E /* Main.storyboard in Resources */,
+				848395501DB61E9F005F6E7E /* Info.plist in Resources */,
+				8483954F1DB61E9F005F6E7E /* Main.storyboard in Resources */,
+				8483954D1DB61E9F005F6E7E /* Assets.xcassets in Resources */,
+				8483954E1DB61E9F005F6E7E /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,30 +170,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8483950D1DB5FDE7005F6E7E /* SNYKeyChain.m in Sources */,
-				848394F31DB5BE21005F6E7E /* ViewController.m in Sources */,
-				848394F01DB5BE21005F6E7E /* AppDelegate.m in Sources */,
-				848394ED1DB5BE21005F6E7E /* main.m in Sources */,
+				848395521DB61E9F005F6E7E /* People.m in Sources */,
+				848395511DB61E9F005F6E7E /* main.m in Sources */,
+				848395531DB61E9F005F6E7E /* SNYKeychain.m in Sources */,
+				8483954C1DB61E9F005F6E7E /* AppDelegate.m in Sources */,
+				848395541DB61E9F005F6E7E /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		848394F41DB5BE21005F6E7E /* Main.storyboard */ = {
+		8483953E1DB61E9F005F6E7E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				848394F51DB5BE21005F6E7E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		848394F91DB5BE21005F6E7E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				848394FA1DB5BE21005F6E7E /* Base */,
+				8483953F1DB61E9F005F6E7E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		848395401DB61E9F005F6E7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848395411DB61E9F005F6E7E /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -294,12 +294,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = SNYKeyChain/SNYKeyChain.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SNYKeychain/SNYKeychain.entitlements;
 				DEVELOPMENT_TEAM = 7C42RTV7UT;
 				INFOPLIST_FILE = SNYKeyChain/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.com.camhow.live.SNYKeyChain1;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.camhow.live.SNYKeychain1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -308,12 +308,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = SNYKeyChain/SNYKeyChain.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SNYKeychain/SNYKeychain.entitlements;
 				DEVELOPMENT_TEAM = 7C42RTV7UT;
 				INFOPLIST_FILE = SNYKeyChain/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.com.camhow.live.SNYKeyChain1;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.camhow.live.SNYKeychain1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -321,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		848394E31DB5BE21005F6E7E /* Build configuration list for PBXProject "SNYKeyChain" */ = {
+		848394E31DB5BE21005F6E7E /* Build configuration list for PBXProject "SNYKeychain" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				848394FD1DB5BE21005F6E7E /* Debug */,
@@ -330,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		848394FF1DB5BE21005F6E7E /* Build configuration list for PBXNativeTarget "SNYKeyChain" */ = {
+		848394FF1DB5BE21005F6E7E /* Build configuration list for PBXNativeTarget "SNYKeychain" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				848395001DB5BE21005F6E7E /* Debug */,

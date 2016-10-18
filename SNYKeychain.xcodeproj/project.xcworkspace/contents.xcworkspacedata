@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SNYKeyChain.xcodeproj">
+      location = "self:/Users/admin/Documents/github/SNYKeyChain/SNYKeychain.xcodeproj">
    </FileRef>
 </Workspace>

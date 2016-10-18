@@ -4,7 +4,7 @@
 <dict>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>$(AppIdentifierPrefix)cn.com.camhow.live.SNYKeyChain2</string>
+		<string>$(AppIdentifierPrefix)cn.com.camhow.live.SNYKeychain1</string>
 	</array>
 </dict>
 </plist>
