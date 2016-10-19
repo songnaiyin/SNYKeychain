@@ -1,7 +1,15 @@
 # SNYKeychain
 
 简单的使用Keychain保存数据
+
 使用方法
+
+        pod 'SNYKeyChain'
+
+手动配置
+      
+      SNYKeychain.h SNYKeychain.m 拖到项目中 引入下Security.framework即可
+        
 
 //存
 
