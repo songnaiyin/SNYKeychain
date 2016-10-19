@@ -108,8 +108,16 @@
 
 +(void)setObject:(id<NSCoding>)object forKey:(NSString *)key
 {
-    NSData * data = [NSKeyedArchiver archivedDataWithRootObject:object];
-    [self setData:data forKey:key];
+    if (object)
+    {
+        NSData * data = [NSKeyedArchiver archivedDataWithRootObject:object];
+        [self setData:data forKey:key];
+    }
+    else
+    {
+        [self removeDataForKey:key];
+    }
+    
 }
 +(id)objectForKey:(NSString *)key
 {
@@ -121,5 +129,8 @@
     }
     return nil;
 }
-
++(void)removeObjectForKey:(NSString *)key
+{
+    [self removeDataForKey:key];
+}
 @end
