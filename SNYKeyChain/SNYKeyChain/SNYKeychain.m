@@ -111,7 +111,7 @@
     NSData * data = [NSKeyedArchiver archivedDataWithRootObject:object];
     [self setData:data forKey:key];
 }
-+(id)objecForKey:(NSString *)key
++(id)objectForKey:(NSString *)key
 {
     NSData * data = [self dataForKey:key];
     if (data)

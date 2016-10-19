@@ -31,16 +31,16 @@
     [SNYKeychain setObject:p forKey:@"pKey"];
     
     //取
-    NSString * str1 = [SNYKeychain objecForKey:@"strKey"];
+    NSString * str1 = [SNYKeychain objectForKey:@"strKey"];
     NSLog(@"str1:%@",str1);
     
-    NSArray * arr1 = [SNYKeychain objecForKey:@"arrKey"];
+    NSArray * arr1 = [SNYKeychain objectForKey:@"arrKey"];
     NSLog(@"arr1:%@",arr1);
     
-    NSArray * dict1 = [SNYKeychain objecForKey:@"dictKey"];
+    NSArray * dict1 = [SNYKeychain objectForKey:@"dictKey"];
     NSLog(@"dict1:%@",dict1);
     
-    People * p1 = [SNYKeychain objecForKey:@"pKey"];
+    People * p1 = [SNYKeychain objectForKey:@"pKey"];
     NSLog(@"p1:%@",p1);
 }
 

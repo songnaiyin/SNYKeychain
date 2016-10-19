@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-s.name         = "SNYKeychain"
+s.name         = "SNYKeyChain"
 s.version      = "1.1"
 s.summary      = "simple Keychain"
 s.homepage     = "https://github.com/songnaiyin/SNYKeychain"

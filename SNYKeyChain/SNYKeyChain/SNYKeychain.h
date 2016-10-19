@@ -20,6 +20,6 @@
 @interface SNYKeychain (Cate)
 
 +(void)setObject:(id<NSCoding>)object forKey:(NSString *)key;
-+(id)objecForKey:(NSString *)key;
++(id)objectForKey:(NSString *)key;
 
 @end
